@@ -1,0 +1,18 @@
+{
+  "accuracy": 0.8852459016393442,
+  "precision": 0.8387096774193549,
+  "recall": 0.9285714285714286,
+  "f1_score": 0.8813559322033898,
+  "roc_auc": 0.9664502164502164,
+  "best_params": {
+    "classifier__C": 0.1,
+    "classifier__solver": "liblinear"
+  },
+  "cv_best_recall": 0.8098814229249012,
+  "dataset": "UCI Cleveland Heart Disease (local CSV supplied by user)",
+  "dataset_rows": 303,
+  "train_rows": 242,
+  "test_rows": 61,
+  "random_state": 42,
+  "target_mapping": "original target 0 -> 0; original targets 1,2,3,4 -> 1"
+}
